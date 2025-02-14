@@ -1,0 +1,334 @@
+body {
+	font-family: "Istok Web", serif !important;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none !important;
+	color: inherit;
+}
+
+.header {
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+@media screen and (max-width: 500px) {
+	.header {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+.navbar-brand {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #38b6ff !important;
+}
+
+@media screen and (max-width: 500px) {
+	.navbar-brand {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: #38b6ff !important;
+	}
+}
+
+/* Custom styling for the contact button */
+.btn-contact {
+	border-radius: 50px;
+	padding: 5px 20px;
+	border: 1.5px solid #38b6ff;
+	background-color: white;
+	color: #38b6ff;
+	font-weight: bold;
+}
+
+.btn-contact:hover {
+	background-color: #38b6ff;
+	color: white;
+}
+
+.strt-btn {
+	border-radius: 50px;
+	padding: 5px 20px;
+	border: 1.5px solid #38b6ff;
+	background-color: #38b6ff;
+	color: white;
+}
+
+.strt-btn:hover {
+	background-color: white;
+	color: #38b6ff;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+
+.header-banner,
+.abt-banner {
+	margin-top: 15%;
+	height: 20rem;
+}
+
+.abt-info-text-div {
+	width: 65rem;
+}
+
+.abt-info-text {
+	font-size: 1.25rem;
+}
+
+.abt-txt-name,
+.abt-txt-name-2 {
+	font-size: 2rem;
+	color: #38b6ff;
+}
+
+.pre-seed,
+.AGM {
+	width: 1000px;
+	margin-left: 25%;
+	margin-top: 15rem;
+	margin-bottom: 15rem;
+}
+
+.carousel-item img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+	.header-banner {
+		margin-top: 45%;
+	}
+	.abt-banner {
+		margin-top: 25%;
+		width: 80%;
+		margin-left: 40px;
+	}
+
+	.abt-info-text {
+		font-size: 0.75rem;
+	}
+
+	.abt-info-text-caro {
+		font-size: 0.5rem;
+	}
+	.abt-txt-name {
+		font-size: 1rem;
+	}
+
+	.abt-txt-name-2 {
+		font-size: 0.65rem;
+		color: #38b6ff;
+	}
+
+	.pre-seed,
+	.AGM {
+		width: 300px;
+		margin-top: 25%;
+		margin-left: 12%;
+		gap: 20px !important;
+	}
+
+	.carousel-item img {
+		width: 250px !important;
+		height: 200px;
+		border-radius: 10px;
+	}
+}
+
+.mb-banner {
+	margin-top: 10%;
+	height: 30rem;
+}
+
+.b-text {
+	font-size: 5rem;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+	.b-text {
+		font-size: 1.75rem;
+	}
+
+	.b-tg-line,
+	.more-btn,
+	.con-btn,
+	.nav-con-btn,
+	.nav-menu-name {
+		font-size: 0.75rem;
+	}
+}
+
+.feature-container {
+	margin-top: 10%;
+}
+
+.f-text,
+.mb-text {
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+@media screen and (max-width: 500px) {
+	.f-text {
+		font-size: 1.75rem;
+	}
+}
+
+.b-btns {
+	display: flex;
+	justify-content: center;
+	gap: 5%;
+}
+
+.div-border {
+	border: 1px solid grey;
+}
+
+.f-box {
+	border: 1px solid gray;
+	border-radius: 25px;
+	width: 500px;
+	height: 110px;
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+
+.f-m-box-1,
+.f-m-box-2 {
+	display: flex;
+	justify-content: center;
+}
+
+.i-box {
+	font-size: 2rem;
+}
+
+.i-box-2 {
+	margin-top: 0.5rem;
+	font-size: 2rem;
+}
+
+.b-i-heading,
+.ft-name {
+	font-weight: 700;
+}
+
+.b-i-text {
+	font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+	.f-box {
+		border: 1px solid gray;
+		border-radius: 12.5px;
+		width: 325px;
+		height: 75px;
+	}
+
+	.f-one-box {
+		margin-left: -40px;
+		margin-bottom: -15px;
+	}
+
+	.f-multi-box {
+		margin-left: -30px;
+	}
+
+	.f-m-box-1 {
+		margin-bottom: -15px;
+	}
+
+	.i-box,
+	.i-box-2 {
+		font-size: 1rem;
+	}
+
+	.i-box-2 {
+		margin-top: 0rem;
+	}
+
+	.b-i-heading,
+	.b-i-text {
+		font-size: 0.75rem;
+	}
+
+	.mb-banner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 50px;
+		margin-top: -70px;
+	}
+	.mb-text {
+		font-size: 1.75rem;
+	}
+}
+
+.foot-links {
+	width: 500px;
+}
+
+.copyright {
+	height: 5rem;
+}
+.cpwrt {
+	font-weight: 300;
+	font-size: 10px;
+	color: grey;
+	width: 500px;
+}
+
+.socs {
+	color: grey;
+}
+
+@media screen and (max-width: 500px) {
+	.ft-name {
+		font-size: 1rem;
+	}
+
+	.ft-home,
+	.ft-about,
+	.ft-services,
+	.ft-contact,
+	.cpwrt,
+	.socs {
+		font-size: 0.5rem;
+	}
+
+	.cpwrt {
+		width: 80%;
+	}
+
+	.socials {
+		width: 40px;
+	}
+}
+
+.services-container,
+.contact-container {
+	height: 600px;
+}
+.contact-container {
+	margin-bottom: -300px;
+}
+
+.sr-txt,
+.fua,
+.email {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
